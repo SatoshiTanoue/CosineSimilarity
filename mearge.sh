@@ -5,6 +5,6 @@
 
 
 mearge(){
-cat $1 | cat $2 
+cat $1 $2 | sort
 } 
 mearge $1 $2 > result.txt
