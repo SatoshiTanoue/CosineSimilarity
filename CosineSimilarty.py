@@ -29,7 +29,6 @@ for line in open('resultB.txt', 'r'):
     after = "".join(line.split()) 
     if after in dictB:
       dictB[after] = 1;
-    dictB["TODO"] = 1
 #numpy のベクトルに変換
 for value in dictA.values() :
     arrayA = np.append(arrayA,value)
